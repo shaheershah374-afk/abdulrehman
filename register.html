@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Dashboard</title>
+<link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+<h1>login</h1>
+
+<div class="box">
+
+<p><b>ID:</b> <span id="studentID"></span></p>
+
+<h2>Application Progress</h2>
+
+<div class="progress">
+
+<input type="email" id="emailinput" placeholder="Email">
+<button onclick="loadStudentData()">login</button>
+
+<div class="step">Documents Submitted</div>
+<div class="step">University Applied</div>
+<div class="step">Offer Letter</div>
+<div class="step">Visa Filed</div>
+<div class="step">Visa Approved</div>
+
+</div>
+
+<button onclick="logout()">Logout</button>
+
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>
